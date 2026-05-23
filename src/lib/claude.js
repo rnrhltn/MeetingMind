@@ -10,7 +10,7 @@
 // Route through Vite proxy (/api/anthropic → https://api.anthropic.com)
 // This avoids CORS errors when calling the Anthropic API from the browser.
 const ANTHROPIC_API_URL = '/api/anthropic/v1/messages';
-const MODEL = 'claude-3-5-sonnet-20241022';
+const MODEL = 'claude-sonnet-4-20250514';
 
 // System prompt engineered for Filipino student orgs (see docs/PROMPT.md)
 const SYSTEM_PROMPT = `You are a meeting intelligence assistant built specifically for Filipino student organizations.
