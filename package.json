@@ -1,0 +1,28 @@
+{
+  "name": "meetingmind",
+  "version": "1.0.0",
+  "description": "AI-powered meeting assistant for student organizations",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rnrhltn/MeetingMind.git"
+  },
+  "author": "Rainier M. Holaton",
+  "license": "MIT",
+  "dependencies": {
+    "jspdf": "^2.5.1",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.1.7",
+    "@vitejs/plugin-react": "^4.5.2",
+    "tailwindcss": "^4.1.7",
+    "vite": "^6.3.5"
+  }
+}
