@@ -86,6 +86,7 @@ export async function processMeetingNotes(rawNotes) {
         'Content-Type': 'application/json',
         'x-api-key': apiKey,
         'anthropic-version': '2023-06-01',
+        'anthropic-dangerous-direct-browser-access': 'true',
       },
       body: JSON.stringify({
         model: MODEL,
@@ -127,6 +128,6 @@ export async function processMeetingNotes(rawNotes) {
 
   } catch (err) {
     console.error('MeetingMind: Failed to process notes:', err);
-    return null;
+    throw err;
   }
 }
